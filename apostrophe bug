@@ -1,0 +1,2 @@
+When the csv contains text with an apostrophe, such as "the university's program", the resulting json reads: 
+"the university\u00e2\u20ac\u2122s program". 
